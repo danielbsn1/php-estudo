@@ -36,8 +36,9 @@ $pessoas = [
     'ana'=> 400,
     'joao' => 500
 ];
+
 echo '->' . $pessoas ['matheus'];
 foreach ($pessoas as $pessoa => $salario){
     echo "dados: $pessoa ganha $salario <br>";
 }
-?> 
+?>
