@@ -20,4 +20,6 @@
     return $celsius * 1.8 + 32;
     echo "graus fahrenheit: " . $fahrenheit;
  }
+
+ 
 ?>

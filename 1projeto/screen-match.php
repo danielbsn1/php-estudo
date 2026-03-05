@@ -55,3 +55,8 @@ $filme = [
 
 
 echo $filme["ano"];
+
+echo json_encode($filme ['nome']);
+
+$filmeComStringJson = json_encode($filme);
+file_put_contents('fime.json', $filmeComStringJson);
